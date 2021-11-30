@@ -1,3 +1,38 @@
-body {
+body{
+  background-color: white;
+}
+h2 {color: cadetblue; 
+  text-align: center; 
+font-size: 150px; 
+  border: 20px darksalmon solid;
+font-family: georgia}
 
+p {color: gray; 
+font-size: 80px;
+font-family: verdana;
+font: }
+
+ul {list-style: inside;
+text-align: center;
+list-style-type: circle;
+font-size: 50px;
+font-family: verdana;
+color: gray}
+
+table, tr, td, th {border: solid black;
+  border-collapse: collapse; 
+text-align: center;
+font-family: verdana;
+padding: 50px;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: cadetblue;
+}
+
+tr:nth-child(odd) {background-color: darksalmon;}
+
+tr {
+  border-bottom: 1px solid #ddd;
 }
