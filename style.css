@@ -2,7 +2,8 @@ h1 {
   text-align: center;
   color: tan;
   font-size: 180px;
-  font-family: Garamond
+  font-family: Garamond;
+  padding: 100px
 }
 
 img {
